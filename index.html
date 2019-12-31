@@ -27,8 +27,26 @@
     <div id="wrapper">
       <section class="hero">
         <nav class="navbar">
+        <div class="responsiveNav">
           <img src="./asset/images/Logo.svg" alt="logo">
-          <!-- <img src="/asset/images/hamburger.jpg" alt="menu"> -->
+          <div id="ham" class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <!-- <img  src="./asset/images/bars-solid.svg" alt="hamburger" onclick="display()"> -->
+        </div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+          <div id="navs">
+            <ul>
+              <li>ABOUT <span>&#11167;</span></li>
+              <li>SERVICES <span>&#11167;</span></li>
+              <li>TEAM <span>&#11167;</span></li>
+              <li>PRICING <span>&#11167;</span></li>
+              <li>BLOG <span>&#11167;</span></li>
+            </ul>
+          </div>
         </nav>
         <div class="header">
           <div class="headerTxt w-85 center">
@@ -192,5 +210,6 @@
 
         
     </div>
+    <script src="./asset/js/index.js"></script>
   </body>
 </html>
