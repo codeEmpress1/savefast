@@ -29,16 +29,15 @@
         <nav class="navbar">
         <div class="responsiveNav">
           <img src="./asset/images/Logo.svg" alt="logo">
-          <div id="ham" class="container" onclick="myFunction(this)">
+          <div id="ham" class="container phone" onclick="myFunction(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
           </div>
-          <!-- <img  src="./asset/images/bars-solid.svg" alt="hamburger" onclick="display()"> -->
         </div>
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-          <div id="navs">
+          <div id="navs" class="text-small">
             <ul>
               <li>ABOUT <span>&#11167;</span></li>
               <li>SERVICES <span>&#11167;</span></li>
@@ -48,19 +47,33 @@
             </ul>
           </div>
         </nav>
-        <div class="header">
-          <div class="headerTxt w-85 center">
-              <h1 class=""><span>The Very Best </span><br>
-                <span>iOS App</span>
+        <div class="header w-85">
+          <div class="header1">
+            <div class="headerTxt center phone">
+                <h1 class="phone">The Very Best <br> iOS App</h1>
+                <p class="text-small">I must explain to you how all this mistaken 
+                  idea of denouncing pleasure and praising pain was born.
+                </p>
+            </div>
+
+            <div class="desktop">
+              <h1 class="">
+                The Very Best iOS App <br> to Solve Your Problems
               </h1>
               <p class="text-small">I must explain to you how all this mistaken 
                 idea of denouncing pleasure and praising pain was born.
               </p>
+            </div>
+            <div class="headerImg">
+                <img src="./asset/images/Apple Store.svg" alt="Apple store">
+                <img src="./asset/images/Google Play.png" alt="Google Store">
+            </div>
           </div>
-          <div class="headerImg">
-              <img src="./asset/images/Apple Store.svg" alt="Apple store">
-              <img src="./asset/images/Google Play.png" alt="Google Store">
+          <div class="header2">
+            <img class="homeImg" src="./asset/images/Right.png" alt="">
+            <!-- <h1 class="w-85 center">fdxdfchgvhhjasdfgh</h1> -->
           </div>
+
         </div>
       </section>
 
@@ -108,31 +121,35 @@
               Duis aute irure dolor in reprehenderit in voluptate.
             </p>
           </div>
-          <div class="card">
-             <img src="./asset/images/Shape.svg" alt="icon">
-            <p class="text-small-bold">Multi-platform</p>
-            <p class="text-small text-gray">
-                To take a trivial example, which of us ever undertakes 
-                laborious physical exercise and stuff.
-            </p>
-          </div>
-          <div class="card">
-               <img src="./asset/images/Shape-1.svg" alt="icon">
-              <p class="text-small-bold">Administrators</p>
-              <p class="text-small text-gray">
-                  To take a trivial example, which of us ever undertakes 
-                  laborious physical exercise and stuff.
-              </p>
-            </div>
+          
+          <div class="flex">
             <div class="card">
-                <img src="./asset/images/Shape-2.svg" alt="icon">
-                <p class="text-small-bold">Development</p>
-                <p class="text-small text-gray">
-                    To take a trivial example, which of us ever undertakes 
-                    laborious physical exercise and stuff.
-                </p>
-              </div>
-              <hr>
+              <img src="./asset/images/Shape.svg" alt="icon">
+             <p class="text-small-bold">Multi-platform</p>
+             <p class="text-small text-gray">
+                 To take a trivial example, which of us ever undertakes 
+                 laborious physical exercise and stuff.
+             </p>
+           </div>
+           <div class="card">
+                <img src="./asset/images/Shape-1.svg" alt="icon">
+               <p class="text-small-bold">Administrators</p>
+               <p class="text-small text-gray">
+                   To take a trivial example, which of us ever undertakes 
+                   laborious physical exercise and stuff.
+               </p>
+             </div>
+             <div class="card">
+                 <img src="./asset/images/Shape-2.svg" alt="icon">
+                 <p class="text-small-bold">Development</p>
+                 <p class="text-small text-gray">
+                     To take a trivial example, which of us ever undertakes 
+                     laborious physical exercise and stuff.
+                 </p>
+               </div>
+           
+          </div>
+          <hr>
         </section>
 
         <section id="section-c">
@@ -145,46 +162,59 @@
             </div>
           </div>
 
-          <div class="expect">
-            <div class="w-90 left text-gray text-small">
-              <p>Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia. @CREATION #APP #To-Do
-              </p>
-              <img src="./asset/images/twitter.svg" alt="">
-              <span>2 DAYS AGO</span>
+          <div class="flex exp">
+            <div class="expect">
+              <div class="w-90 left text-gray text-small">
+                <p>Excepteur sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia. @CREATION #APP #To-Do
+                </p>
+                <img src="./asset/images/twitter.svg" alt="">
+                <span>2 DAYS AGO</span>
+              </div>
             </div>
-          </div>
-
-         
-          <div class="expect">
-            <div class="w-90 left text-gray text-small">
-              <p>Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia. @CREATION #APP #To-Do
-              </p>
-              <img src="./asset/images/twitter.svg" alt="">
-              <span>2 DAYS AGO</span>
-            </div>
-          </div>
-
+  
            
-          <div class="expect">
-            <div class="w-90 left text-gray text-small">
-              <p>Excepteur sint occaecat cupidatat non proident, 
-                sunt in culpa qui officia. @CREATION #APP #To-Do
-              </p>
-              <img src="./asset/images/twitter.svg" alt="">
-              <span>2 DAYS AGO</span>
+            <div class="expect">
+              <div class="w-90 left text-gray text-small">
+                <p>Excepteur sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia. @CREATION #APP #To-Do
+                </p>
+                <img src="./asset/images/twitter.svg" alt="">
+                <span>2 DAYS AGO</span>
+              </div>
             </div>
+  
+             
+            <div class="expect">
+              <div class="w-90 left text-gray text-small">
+                <p>Excepteur sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia. @CREATION #APP #To-Do
+                </p>
+                <img src="./asset/images/twitter.svg" alt="">
+                <span>2 DAYS AGO</span>
+              </div>
+
+          </div>
           </div>
 
         </section>
 
-        <section class="blueBg"></section>
+        <section class="blueBg">
+          <div class="blueBgTxt">
+            <p class="gridItem">Ready to get the latest app to explore how fast <br>task management can be?</p>
+            
+          <div class="blueImg gridItem">
+            <span><img src="./asset/images/Apple Store.svg" alt="Apple store"></span>
+          <span><img src="./asset/images/Google Play.png" alt="Google Store"></span>
+          </div>
+
+          </div>
+        </section>
 
         <section id="section-d" class="text-small">
           <div class="footer1">
               <div class="footerNav">
-              <div class="footerHead">
+              <div class="footerHead w-85">
                  <img src="./asset/images/Logo.svg" alt="">
                  <p>Inizio</p>
               </div>
@@ -201,11 +231,14 @@
           <hr class="w-85">
 
           <footer class="w-85 ">
-              <p><span>Privacy Policy</span>
-              <span>Terms of Service</span> </p>
-                <img src="./asset/images/Socials.svg" alt="social icons">
-              <p>&copy 2019 Hal All Rights Reserved.</p>
-            </footer>
+            <div class="footerLinks">
+              <a href="">Privacy Policy</a>
+              <a href="">Terms of Service</a>
+              <a href=""><img src="./asset/images/Socials.svg" alt="social icons"></a>
+            </div>
+              
+            <p>&copy 2019 Hal All Rights Reserved.</p>
+          </footer>
         </section>
 
         
